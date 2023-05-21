@@ -1,0 +1,13 @@
+/*........................... FOOTER ....................... */
+footer {
+    background: rgb(149,112,159);
+    background: radial-gradient(circle, rgba(149,112,159,1) 54%, rgba(109,53,148,1) 74%);
+    padding: 1rem;
+    margin-block-start: 2rem;
+    border-radius: 0.8rem;
+}
+
+.fa-times,
+.fa-bars {
+    font-size: 2rem;
+}

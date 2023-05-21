@@ -1,0 +1,75 @@
+/* /* ............... MEME-EDITOR ................... */
+
+.edit-panel {
+    display: grid;
+    background-color: rgba(238, 237, 237, 0.2);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    gap: 0.3rem 0.5rem;
+    margin-inline-start: 1.5rem;
+}
+
+.edit-panel input[name="write-meme"] {
+    grid-column: 2/8;
+    font-family: popins-medium, sans-serif;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    border: none;
+    padding: 0.5rem 0;
+}
+
+.btn-remove {
+    grid-column: 2/8;
+    grid-row: 2/3;
+}
+
+.btn-add {
+    grid-row: 3/4;
+    grid-column: 2/5;
+}
+
+.btn-delete {
+    grid-row: 3/4;
+    grid-column: 5/8;
+}
+
+.btn-container {
+    grid-row: 4/5;
+    grid-column: 2/8;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.btn-color {
+    grid-row: 5/6;
+    grid-column: 2/8;
+}
+
+.btn-font {
+    grid-row: 6/7;
+    grid-column: 2/8;
+}
+
+.btn-nxt {
+    grid-row: 7/8;
+    grid-column: 2/8;
+}
+
+.btn-save {
+    grid-row: 8/9;
+    grid-column: 2/8;
+}
+
+.btn-tab {
+    grid-row: 9/10;
+    grid-column: 2/8;
+}
+
+.btn-download-share {
+    grid-row: 10/11;
+    grid-column: 2/8;
+    justify-content: space-evenly;
+}

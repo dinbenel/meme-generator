@@ -1,0 +1,68 @@
+/*.............. Helpers............ */
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.list-style {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.hide {
+    display: none;
+}
+
+.txt-capital {
+    text-transform: capitalize;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 0.8rem;
+    padding: 0.3rem;
+    background-color: #ebeef3;
+    outline: none;
+    border: none;
+    color: #000;
+}
+
+.trans {
+    transition: ease-in-out .2s;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #ebeef3;
+}
+
+
+.border {
+    border: 5px solid rgba(159, 159, 154, 0.3);
+    border-radius: 0.5rem;
+}
+
+.pad {
+    padding: 0.6rem;
+}

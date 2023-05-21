@@ -1,0 +1,37 @@
+/*................ HEADER .........................*/
+header {
+    background: rgb(149, 112, 159);
+    background:
+        radial-gradient(circle, rgba(149, 112, 159, 1) 54%, rgba(109, 53, 148, 1) 74%);
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+header .links-container {
+    justify-content: space-between;
+}
+
+header .logo-container {
+    max-width: 30%;
+}
+
+header ul.nav-links li:not(:last-child) {
+    margin-inline-end: 2rem;
+}
+
+ul.nav-links li a {
+    padding: 0.4rem;
+}
+
+ul.nav-links li {
+    padding: 0.4rem;
+
+}
+
+ul.nav-links li a:hover,
+ul.nav-links li a:focus {
+    background-color: #fefefe;
+    color: #95709f;
+    border-radius: 0.5rem;
+    transition: ease-in-out 0.2s;
+}

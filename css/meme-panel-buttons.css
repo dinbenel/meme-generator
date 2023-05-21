@@ -1,0 +1,97 @@
+/*...................... MEME PANEL BUTTONS STYLE .............. */
+
+.edit-panel .txt-edit button {
+    padding: 0.3rem 1.2rem;
+}
+
+.edit-panel .btn-container button:hover,
+.edit-panel .btn-container button:focus {
+    background-color: #22252c;
+    color: #eeeded;
+}
+
+.btn-download-share button {
+    font-family: popins-medium, sans-serif;
+    padding: 0.5rem 1rem;
+}
+
+.edit-panel .btn-add-remove button {
+    font-family: popins-medium, sans-serif;
+    padding: 0.3rem 1rem;
+}
+
+.btn-remove {
+    font-family: popins-medium, sans-serif;
+    background-color: #9f9f9a;
+}
+
+.btn-delete {
+    background-color: #e72139;
+}
+
+.btn-add {
+    background-color: #5dc87d;
+}
+
+.btn-nxt {
+    background-color: #ddcc6c;
+    font-family: popins-medium, sans-serif;
+}
+
+.btn-tab {
+    background-color: #9f9f9a;
+    font-family: popins-medium, sans-serif;
+}
+
+.btn-save {
+    background-color: #dd828e;
+    font-family: popins-medium, sans-serif;
+}
+
+.btn-download {
+    background-color: #95709f;
+}
+
+.btn-share {
+    background-color: #5d9dc8;
+}
+
+.btn-delete:hover,
+.btn-delete:focus {
+    color: #e72139;
+}
+
+.btn-add:hover,
+.btn-add:focus {
+    color: #5dc87d;
+}
+
+.btn-nxt:hover,
+.btn-nxt:focus {
+    color: #ddcc6c;
+}
+
+.btn-tab:hover,
+.btn-tab:focus {
+    background-color: #9f9f9a;
+}
+
+.btn-save:focus,
+.btn-save:hover {
+    color: #dd828e;
+}
+
+.btn-download:hover,
+.btn-download:focus {
+    color: #95709f;
+}
+
+.btn-share:hover,
+.btn-share:focus {
+    color: #5d9dc8;
+}
+
+.edit-panel button:hover,
+.edit-panel button:focus {
+    background-color: #eeeacc;
+}

@@ -1,0 +1,46 @@
+/*................... GALLERY .............................. */
+.user-panel {
+    justify-content: space-evenly;
+    margin: 0.5rem 1rem;
+}
+
+.user-panel>* {
+    border-radius: 1rem;
+    padding: 0.6rem 1rem;
+}
+
+.user-panel .btn-more {
+    color: #fefefe;
+    margin-inline-start: 0.5rem;
+    padding: 0 1.5rem;
+    background: #95709f;
+    
+}
+
+.user-panel .btn-more:hover,
+.user-panel .btn-more:focus {
+    background: #fefefe;
+    color: #95709f;
+}
+
+.user-panel input[name="search-bar"] {
+    flex: 2;
+}
+
+.card {
+    position: relative;
+}
+
+.img-filter {
+    background-color: rgba(0, 0, 0);
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.card:hover .img-filter, 
+.card:focus .img-filter {
+    opacity: 0.5;
+}
